@@ -1,0 +1,31 @@
+﻿//At the beginning, connector will send
++TunnelName+\r\n
+
+//Every 1 seconds, connector will send, as Keep Alive Message
++*+\r\n
+
+/////////////////////////////////////////////////////////
+//Note: Message should be written in one line.
+/////////////////////////////////////////////////////////
+
+token|type|object|method|pnname1,pvalue1|pname2,pvalue2|pname3,pvalue3
+//Call
+
+token|type|returntype|value
+//Callback
+
+token|type|returntype|v1|v2|v3
+//Callback, list
+
+token|type|message
+//Exception
+
+token|type|object|event|isregister
+//Event Registration
+
+
+
+token|type|eventtoken|eventname|p1|p2|p3
+//Event Invoke
+
+
